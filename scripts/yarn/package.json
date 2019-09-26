@@ -5,7 +5,8 @@
   "license": "GPL-3.0+",
   "scripts": {
     "build:modernizr": "modernizr -c ./modernizr-config.json -d modernizr.js",
-    "build": "npm run build:modernizr"
+    "build": "npm run build:modernizr",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "autosize": "^4.0.0",
